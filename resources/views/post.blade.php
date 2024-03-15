@@ -7,4 +7,6 @@
 <p>
     {{ $post->body }}
 </p>
+
+<strong>{{$post->user->name}}</strong>
 @endsection
